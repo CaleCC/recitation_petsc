@@ -139,7 +139,7 @@ int main(int argc,char **args)
      Exercise 3: Solve linear system
   */
   /*write your code here*/
-  ierr = KSPSolve(ksp,b,x);CHKERRQ(ierr);
+  
 
   /*
      View solver info; we could instead use the option -ksp_view to
